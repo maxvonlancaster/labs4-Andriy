@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Реєстрація</title>
+<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+   <main class="sign_in">
+      <div class="wrapper">
+          <div class="card-switch">
+              <label class="switch">
+                 <input class="toggle" type="checkbox">
+                 <span class="slider"></span>
+                 <span class="card-side"></span>
+                 <div class="flip-card__inner">
+                    <div class="flip-card__front">
+                       <div class="title">Log in</div>
+                        <form id="registrationForm">
+                           <label for="username">Ім'я користувача:</label><br>
+                           <input type="email" placeholder="Email" id="email" name="email" class="flip-card__input" required ><br>
+                           <label for="password">Пароль:</label><br>
+                           <input type="password" id="password" name="password" class="flip-card__input" required><br>
+                           <label for="confirmPassword">Підтвердіть пароль:</label><br>
+                           <input type="password" id="confirmPassword" name="confirmPassword" class="flip-card__input" required><br>
+                           <button class="flip-card__btn" type="submit">Let`s go!</button>
+                           <button class="flip-card__btn"><a href="index.html">Повернутися</a></button>
+                           <ul id="userList"></ul>
+                        </form>
+                     </div>
+                     <div class="flip-card__back">
+                        <div class="title">Sign up</div>
+                        <form action="" class="flip-card__form">
+                           <input type="email" placeholder="Email" name="email" class="flip-card__input" id="flip-card_emailLogin">
+                           <input type="password" placeholder="Password" name="password" class="flip-card__input" id="flip-card_passLogin">
+                           <button class="flip-card__btn" id="flip-card_btnLogin">Confirm!</button>
+                        </form>
+                     </div>
+                  </div>
+               </label>
+           </div>   
+      </div>
+    </main>
+<script src="regin.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <h1>
+            Blog by Andrii 
+            
+        </h1>
+        
+    </div>
+    <div class="filter">
+    <a href="reg.html"><img src="media/4.png" class="reg"></a> 
+    <button onclick="loadPosts('info')">info blogs</button>
+    <button onclick="loadPosts('event')">interesting events on matfak</button>
+    
+    <div class="range">
+        <input type="range" min="2000" max="2024" value="2024" class="slider" id="myRange">
+        <p class="value_text">Value: <span id="value"></span></p>
+        <button onclick="loadPosts1()">info blogs</button>
+    </div>
+
+    <button onclick="basketDisplay ()"><img src="media/2.png" class="df"></button>
+    
+    </div>
+    <div class="container" id="container">
+
+    </div>
+ 
+
+    <div class="subscribe" id="subscribe-modal">
+        <div class="subscribe-content">
+            Please subscribe to the page 
+            <button onclick="subscribe()">Subscribe</button>
+            <div id="seconds"></div>
+            <button id="close-button" onclick="closeModal()">Close</button>
+        </div>
+    </div>
+    <div class="basket" id="basket-modal">
+        <div class="basket-content">
+            Вибрані статті 
+            <div class="containerBasket" id="containerBasket">
+            </div>
+            <div id="seconds"></div>
+            <button id="close-button" onclick="closeModalBasket()">Close</button>
+            <div>
+                <canvas id="myChart"></canvas>
+              </div>
+        </div>
+        
+    </div>
+
+    <button onclick="scrollUp()" id="scroll-up-button">↑</button>
+    <script src="script.js"></script>
+</body>
+</html>

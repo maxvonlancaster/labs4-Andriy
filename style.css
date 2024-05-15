@@ -1,0 +1,150 @@
+body{
+    background: black ;
+}
+
+.card{
+    background: rgb(255, 255, 156);
+    border: solid 1px white;
+    border-radius: 1rem;
+    margin: 30px;
+    padding: 0.5rem;
+    width: 200px;
+    height: 300px;
+    
+}
+.card-years{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    height: 20px;
+}
+.card-title{
+    margin: 10px 0 0;
+}
+.container{
+   
+    margin: 0.5rem;
+    padding: 0.5rem;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+.containerBasket{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+button{
+    margin: 0.5rem;
+    padding: 0.25rem;
+}
+.filter{
+    background: rgb(255, 255, 156);
+    border: solid 1px white;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+}
+
+h1{
+    color:yellow;
+}
+p{
+    margin: 5px;
+    
+    width: 200px;
+    font-size: 10px;
+   
+}
+img{
+    float:left;
+    border: rgb(255, 255, 156);
+    border-radius: 5rem;
+    width: 100px;
+   
+}
+.df{
+    width: 20px;
+    border-radius: 0rem;
+    
+}
+.dd{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+
+
+
+
+.subscribe {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .subscribe-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+.basket{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.basket-content{
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+.value_text{
+    position: block;
+}
+.range{
+    width: 100px;
+}
+
+#scroll-up-button{
+    display: none;
+    position: fixed;
+    left: 95%;
+    top: 90%;
+    padding: 1rem;
+    /* margin-bottom: 10%; */
+}
+.reg{
+    width: 40px;
+    border-radius: 0;
+    display: flex;
+}
