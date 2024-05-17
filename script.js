@@ -159,7 +159,7 @@ function scrollUp(){
 
 
 async function fetchNews() {
-    return await fetch('http://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=e106d401ccd949f99b83b303f4f240bf')
+    return await fetch('https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=e106d401ccd949f99b83b303f4f240bf')
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
